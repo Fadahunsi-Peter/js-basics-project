@@ -1,0 +1,28 @@
+/* Base styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #f4f4f9;
+    color: #333333;
+    /* This makes the background color change smooth */
+    transition: background-color 0.4s ease, color 0.4s ease; 
+}
+
+/* Styling our buttons to look professional */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    background-color: #0078D4; /* Microsoft Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover effect for the buttons */
+button:hover {
+    background-color: #005a9e;
+}
